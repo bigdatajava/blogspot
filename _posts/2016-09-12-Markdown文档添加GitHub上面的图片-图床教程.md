@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "我的第一篇博客"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2019-04-25 12:00:00
+title:      "MD文档添加Github图床图片"
+subtitle:   " \"markdown,Github图床\""
+date:       2017-02-25
 author:     "刘自超"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - 生活
+    - Github图床
 ---
 
 > “Yeah It's on. ”

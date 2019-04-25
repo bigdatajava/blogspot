@@ -1,12 +1,13 @@
 ---
 layout:     post
-title:      "我的第一篇博客"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2019-04-25 12:00:00
+title:      "Git上传下载Github教程"
+subtitle:   " \"Git\""
+date:       2015-04-25
 author:     "刘自超"
 header-img: "img/post-bg-2015.jpg"
 tags:
-    - 生活
+    - Git
+	- Github
 ---
 
 > “Yeah It's on. ”

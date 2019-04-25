@@ -1,3 +1,18 @@
+---
+layout:     post
+title:      "ElasticSearch教程"
+subtitle:   " \"ElasticSearch\""
+date:       2019-04-25
+author:     "刘自超"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - ElasticSearch
+---
+
+> “Yeah It's on. ”
+
+
+
 # 第一章 ElasticSearch入门篇
 
 ## 第一节 ElasticSearch概述
@@ -5413,3 +5428,8 @@ if (bulkResponse.hasFailures()) {
 ​        }
 
  
+
+#### 著作权声明
+
+本文首次发布于 [刘自超](https://bigdatajava.github.io/blogspot/)，转载请保留以上链接
+

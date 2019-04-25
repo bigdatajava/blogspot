@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "centos7安装nginx教程"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2019-01-23 12:00:00
+title:      "centos 7 安装nginx教程"
+subtitle:   " \"nginx\""
+date:       2018-01-23
 author:     "刘自超"
 header-img: "img/post-bg-2015.jpg"
 tags:
