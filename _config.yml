@@ -1,8 +1,8 @@
 # Site settings
-title: Your Blog
-SEOTitle: 你的博客 | Your Blog
+title: bigdatajava
+SEOTitle: 你的博客 | bigdatajava
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+email: bigdatajava@163.com
 description: ""
 keyword: ""
 url: "http://huangxuan.me"              # your host, for absolute URL
@@ -82,8 +82,8 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
+        title: "XXX",
+        href: "http://XXXX.me"
     },{
         title: "Foo",
         href: "#"
