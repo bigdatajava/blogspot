@@ -1,3 +1,17 @@
+---
+layout:     post
+title:      "我的第一篇博客"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2019-04-25 12:00:00
+author:     "刘自超"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 生活
+---
+
+> “Yeah It's on. ”
+
+
 ### Markdow文档使用GitHub上的图片
 
 #### 1.markdown文档图片插入方式
@@ -28,5 +42,7 @@ PS:按照此格式github会自动解析这个语法，并把图片在md文件中
 
 
 
+#### 著作权声明
 
+本文首次发布于 [刘自超](https://bigdatajava.github.io/blogspot/)，转载请保留以上链接
 
