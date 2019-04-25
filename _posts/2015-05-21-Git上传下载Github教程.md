@@ -1,3 +1,17 @@
+---
+layout:     post
+title:      "我的第一篇博客"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2019-04-25 12:00:00
+author:     "刘自超"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 生活
+---
+
+> “Yeah It's on. ”
+
+
 ### Git使用教程
 
 ## 一、安装Git
@@ -76,5 +90,9 @@ git clone GitHub链接地址
 
 
 
+
+#### 著作权声明
+
+本文首次发布于 [刘自超](https://bigdatajava.github.io/blogspot/)，转载请保留以上链接
 
 
