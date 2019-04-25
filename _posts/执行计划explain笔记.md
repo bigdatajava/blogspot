@@ -1,0 +1,94 @@
+# 执行计划explain
+
+## 设计到的最重要字段
+
+```
+id,
+select_type,
+key，
+rows，
+Extra
+```
+
+### id
+
+select查询的序列号，包含一组数字，表示查询中执行select子句或操作表的顺序,
+
+id的序号会递增，id值越大优先级越高，越先被执行 
+
+### select_type
+
+查询的类型，主要是用于区分普通查询、联合查询、子查询等复杂的查询
+
+| SIMPLE           | 简单的select查询，查询中不包含子查询或者union |
+| ---------------- | --------------------------------------------- |
+| **PRIMARY**      |                                               |
+| **SUBQUERY**     |                                               |
+| **DERIVED**      |                                               |
+| **UNION**        |                                               |
+| **UNION RESULT** |                                               |
+
+### type
+
+访问类型，sql查询优化中一个很重要的指标，结果值从好到坏依次是：
+
+```
+system > const > eq_ref > ref > fulltext > ref_or_null > index_merge > unique_subquery > index_subquery > range > index > ALL
+
+一般来说，好的sql查询至少达到range级别，最好能达到ref
+```
+
+### possible_keys
+
+查询涉及到的字段上存在索引，则该索引将被列出，但不一定被查询实际使用
+
+### key 
+
+实际使用的索引，如果为NULL，则没有使用索引。 
+查询中如果使用了覆盖索引，则该索引仅出现在key列表中
+
+### key_len
+
+表示索引中使用的字节数，查询中使用的索引的长度（最大可能长度），并非实际使用长度，理论上长度越短越好。key_len是根据表定义计算而得的，不是通过表内检索出的
+
+### ref
+
+显示索引的那一列被使用了，如果可能，是一个常量const。
+
+### rows
+
+根据表统计信息及索引选用情况，大致估算出找到所需的记录所需要读取的行数
+
+### Extra
+
+不适合在其他字段中显示，但是十分重要的额外信息
+
+| **Using filesort**           |                                                              |
+| ---------------------------- | ------------------------------------------------------------ |
+| **Using temporary**          | 使用临时表保存中间结果，也就是说mysql在对查询结果排序时使用了临时表，常见于order by 和 group by |
+| **Using index**              |                                                              |
+| Using where                  | 使用了where过滤                                              |
+| Using join buffer            | 使用了链接缓存                                               |
+| Impossible WHERE             |                                                              |
+| select tables optimized away | 在没有group by子句的情况下，基于索引优化MIN/MAX操作或者对于MyISAM存储引擎优化COUNT（*）操作，不必等到执行阶段在进行计算，查询执行计划生成的阶段即可完成优化 |
+| distinct                     | 优化distinct操作，在找到第一个匹配的元祖后即停止找同样值得动作 |
+
+```
+覆盖索引（Covering Index）：也叫索引覆盖。就是select列表中的字段，只用从索引中就能获取，不必根据索引再次读取数据文件，换句话说查询列要被所建的索引覆盖。 
+注意： 
+a、如需使用覆盖索引，select列表中的字段只取出需要的列，不要使用select * 
+b、如果将所有字段都建索引会导致索引文件过大，反而降低crud性能
+```
+
+
+
+
+
+
+
+
+
+
+
+
+

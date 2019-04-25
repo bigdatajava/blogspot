@@ -1,0 +1,40 @@
+#### jmimts使用简单总结
+
+#### 1.线程组创建
+
+
+
+```
+“测试计划”右键 -> “添加” -> Threads(Users) -> "线程组"
+```
+
+参数说明：
+
+![](https://github.com/NOHELLO/picture/raw/master/jmeter%E7%BA%BF%E7%A8%8B%E7%BB%84%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E.png)
+
+
+
+#### 2.HTTP请求创建
+
+```
+“线程组”右键 -> “添加” ->“Sampler” -> “HTTP请求”
+```
+
+参数说明：
+
+![](https://github.com/NOHELLO/picture/raw/master/jmeter-HTTP%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E.png)
+
+#### 3.聚合报告创建
+
+```
+"HTTP请求"右键 -> “添加” -> “监视器” -> "聚合报告"
+```
+
+#### 4.查看结果树
+
+```
+“HTTP请求”右键 -> "添加" -> "监视器" -> "查看结果树"
+```
+
+
+

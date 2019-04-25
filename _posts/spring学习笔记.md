@@ -1,0 +1,58 @@
+# spring学习笔记
+
+## 1 spring框架特点
+
+```
+spring框架：项目管理框架,23种设计模式中的工厂设计等模式，用来将现有项目中的每一个组件(Action,Service,DAO 事务相关等 都是项目中的一个组件)统一生产、并管理。
+
+注意:实体类 通常不用spring管理
+
+由于spring底层使用工厂设计，因此我们也称之为 工厂、容器
+```
+
+## 2 spring核心思想
+
+```
+IOC (Inversion of controll )控制反转
+AOP (aspect oriented programming) 面向切面编程
+DI (Dependcy Injection)依赖注入
+```
+
+### 2.1 IOC 
+
+```
+将对象的创建由原来代码(new对象)方式 转移到 配置文件, 交给spring工厂进行统一管理控制。同时，还完美解决了组件间的强耦合依赖关系
+```
+
+### 2.2 DI 
+
+```
+spring不仅要创建对象, 还要建立类与类之间的关系,因此在IOC的基础上又提出了DI的思想.把程序中想使用/依赖的对象,定义成成员变量，在spring配置文件中 进行自动赋值。
+注入的概念：在Spring中 给对象的属性 进行自动赋值。
+
+```
+
+#### DI实现方式
+
+```
+set注入：通过set方法赋值【重点】
+构造注入：通过构造方法赋值【了解】
+自动注入：由spring自动赋值【了解】
+```
+
+
+
+## spring核心API
+
+```
+ApplicationContext接口:Spring提供的工厂
+ClassPathXmlApplicationContext实现类:适用于非web环境 
+WebApplicationContext实现类:适用于web环境 
+```
+
+```
+ApplicationContext context = new ClassPathXmlApplicationContext(“spring.xml”);//启动工厂
+```
+
+
+
