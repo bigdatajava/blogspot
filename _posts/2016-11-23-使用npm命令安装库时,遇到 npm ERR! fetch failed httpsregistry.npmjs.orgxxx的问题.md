@@ -1,3 +1,20 @@
+---
+layout:     post
+title:      "使用npm命令安装库时,遇到 npm ERR! fetch failed https://registry.npmjs.org/xxx的问题"
+subtitle:   " \"npm\""
+date:       2016-11-23
+author:     "刘自超"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - npm
+
+
+---
+
+> “学而不思则**忘** ”
+
+
+
 # 使用npm命令安装库时,遇到 npm ERR! fetch failed https://registry.npmjs.org/xxx的问题
 
 ## 最好的解决方式–使用淘宝源
@@ -26,3 +43,10 @@ $ registry = https://registry.npm.taobao.org1
 搜索镜像: [https://npm.taobao.org](https://npm.taobao.org/)
 
 建立或使用镜像,参考: <https://github.com/cnpm/cnpmjs.org>
+
+
+
+#### 著作权声明
+
+本文首次发布于 [刘自超](https://bigdatajava.github.io/blogspot/)，转载请保留以上链接
+

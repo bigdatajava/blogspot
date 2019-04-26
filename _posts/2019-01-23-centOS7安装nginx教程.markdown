@@ -174,4 +174,6 @@ chmod 755 rc.local
 
  
 
- 
+ 著作权声明
+
+本文首次发布于 [刘自超](https://bigdatajava.github.io/blogspot/)，转载请保留以上链接
