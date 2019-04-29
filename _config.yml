@@ -1,6 +1,6 @@
 # Site settings
 title: bigdatajava
-SEOTitle: 你的博客 | bigdatajava
+SEOTitle: 刘自超的博客 | bigdatajava
 header-img: img/home-bg.jpg
 email: bigdatajava@163.com
 description: "刘自超的博客"
@@ -12,11 +12,11 @@ baseurl: /         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
-weibo_username:     bigdatajava
-zhihu_username:     bigdatajava
+# weibo_username:     bigdatajava
+# zhihu_username:     bigdatajava
 github_username:    bigdatajava
 #twitter_username:  bigdatajava
-facebook_username:  bigdatajava
+# facebook_username:  bigdatajava
 
 
 
@@ -50,19 +50,19 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+# duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: cc537a2fc2
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_track_id: 'UA-cc537a2fc2-01'            # Format: UA-xxxxxx-xx
+#ga_domain: liuwc.xyz
 
 
 
@@ -82,19 +82,10 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "XXX",
-        href: "http://XXXX.me"
-    },{
-        title: "Foo",
+        title: "友情链接广告位",
         href: "#"
     },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
+        title: "友情链接广告位",
         href: "#"
     }
 ]
