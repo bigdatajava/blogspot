@@ -83,7 +83,7 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 friends: [
     {
         title: "友情链接广告位",
-        href: "#"
+        href: "https://github.com/dunwu/JavaStack"
     },{
         title: "友情链接广告位",
         href: "#"
