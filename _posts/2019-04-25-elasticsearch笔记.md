@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "ElasticSearch教程"
-subtitle:   " \"ElasticSearch\""
 date:       2019-04-25
 author:     "刘自超"
 header-img: "img/post-bg-2015.jpg"

@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "centos 7 安装nginx教程"
-subtitle:   " \"nginx\""
 date:       2018-01-23
 author:     "刘自超"
 header-img: "img/post-bg-2015.jpg"

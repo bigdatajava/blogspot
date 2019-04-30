@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "SpringBoot整合Mybatis打印SQL语句在控制台"
-subtitle:   " \"SpringBoot，Mybatis，SQL\""
 date:       2019-02-12
 author:     "刘自超"
 header-img: "img/post-bg-2015.jpg"

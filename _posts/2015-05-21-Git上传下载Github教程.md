@@ -7,7 +7,7 @@ author:     "刘自超"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - Git
-	- Github
+    - Github
 ---
 
 > “Yeah It's on. ”

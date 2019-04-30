@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "SpringBoot 2.0 启动报错 Failed to auto-configure a DataSource"
-subtitle:   " \"SpringBoot\""
 date:       2019-01-12
 author:     "刘自超"
 header-img: "img/post-bg-2015.jpg"

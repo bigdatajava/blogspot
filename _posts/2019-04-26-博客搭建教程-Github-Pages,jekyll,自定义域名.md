@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "博客搭建教程-Github Pages,jekyll,自定义域名"
-subtitle:   " \"博客搭建\""
 date:       2019-04-26
 author:     "刘自超"
 header-img: "img/post-bg-2015.jpg"

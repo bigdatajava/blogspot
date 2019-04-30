@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "MD文档添加Github图床图片"
-subtitle:   " \"markdown,Github图床\""
 date:       2017-02-25
 author:     "刘自超"
 header-img: "img/post-bg-2015.jpg"

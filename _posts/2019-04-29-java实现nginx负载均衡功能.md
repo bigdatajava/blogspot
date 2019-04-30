@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "Java实现nginx负载均衡"
-subtitle:   " \"nginx,负载均衡\""
 date:       2017-04-15
 author:     "刘自超"
 header-img: "img/post-bg-2015.jpg"

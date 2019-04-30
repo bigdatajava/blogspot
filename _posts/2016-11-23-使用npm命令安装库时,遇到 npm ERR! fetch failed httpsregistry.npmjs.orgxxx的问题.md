@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "使用npm命令安装库时,遇到 npm ERR! fetch failed https://registry.npmjs.org/xxx的问题"
-subtitle:   " \"npm\""
 date:       2016-11-23
 author:     "刘自超"
 header-img: "img/post-bg-2015.jpg"
